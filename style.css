@@ -85,6 +85,8 @@ body {
   padding: 0.8rem; /* Add padding as needed */
 }
 
-.icon--share path {
-  fill: #6e8098; /* Set the fill color for the path */
+.icon--share:hover,
+.icon--share:hover path {
+  background-color: hsl(214, 17%, 51%);
+  fill: #fff;
 }
