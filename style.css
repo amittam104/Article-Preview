@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  line-height: 1;
+  height: 100vh;
+  background-color: hsl(210, 46%, 95%);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  max-width: 80rem;
+  background-color: #fff;
+  border-radius: 0.6rem;
+}
+
+.img {
+  width: 40%;
+  height: 100%;
+  border-radius: 1rem 0 0 1rem;
+}
+
+.article-section {
+  padding: 2.8rem;
+}
